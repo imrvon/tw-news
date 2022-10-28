@@ -597,16 +597,16 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .mt-8{
   margin-top: 2rem;
 }
 
 .mb-1{
   margin-bottom: 0.25rem;
-}
-
-.mb-8{
-  margin-bottom: 2rem;
 }
 
 .mb-4{
@@ -816,6 +816,12 @@ video {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  #toggle, #close {
+    display: none !important;
+  }
 }
 
 .hover\:bg-black:hover{
