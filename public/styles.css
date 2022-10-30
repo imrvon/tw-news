@@ -559,8 +559,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute{
-  position: absolute;
+.fixed{
+  position: fixed;
 }
 
 .relative{
@@ -637,10 +637,6 @@ video {
   height: 100vh;
 }
 
-.h-6{
-  height: 1.5rem;
-}
-
 .h-full{
   height: 100%;
 }
@@ -649,12 +645,12 @@ video {
   width: 83.333333%;
 }
 
-.w-2\/3{
-  width: 66.666667%;
-}
-
 .w-6{
   width: 1.5rem;
+}
+
+.w-2\/3{
+  width: 66.666667%;
 }
 
 .w-full{
